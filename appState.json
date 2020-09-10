@@ -12,7 +12,7 @@
         "filePath": "gcp-meta-test.js",
         "cursor": {
           "lineNumber": 3,
-          "column": 50
+          "column": 51
         },
         "config": {
           "runtime": "nodejs8",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1599733215521
+        "lastUpdated": 1599734299207
       },
       "bf4b2d7c-8fe2-4ff5-a334-c26d76ee1dfa": {
         "id": "bf4b2d7c-8fe2-4ff5-a334-c26d76ee1dfa",
@@ -93,7 +93,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1599733281658
+    "lastSave": 1599734326449
   },
   "VCS_STATE": {
     "provider": "GitHub",
