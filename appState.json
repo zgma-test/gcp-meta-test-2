@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "fa41b8f1-0ae9-4c03-8a4a-70d09c28249b": {
+        "id": "fa41b8f1-0ae9-4c03-8a4a-70d09c28249b",
+        "parent": null,
+        "name": "gcp-meta-test.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcp-meta-test.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 50
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 1,
+          "name": "gcpMetaTest",
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "pubsubMyFirstTopic",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1599733215521
+      },
+      "bf4b2d7c-8fe2-4ff5-a334-c26d76ee1dfa": {
+        "id": "bf4b2d7c-8fe2-4ff5-a334-c26d76ee1dfa",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "f48d5c10-c87d-4f67-b212-972877208804": {
+        "id": "f48d5c10-c87d-4f67-b212-972877208804",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "fa41b8f1-0ae9-4c03-8a4a-70d09c28249b"
+    ],
+    "currentFileId": "fa41b8f1-0ae9-4c03-8a4a-70d09c28249b",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "pubsubMyFirstTopic": {
+        "name": "pubsubMyFirstTopic",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 1,
+          "topic": {
+            "name": "MyFirstTopic",
+            "subscriptions": []
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "Deployment Manager",
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.3",
+    "projectName": "gcp-meta-test",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1599733281658
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcp-meta-test-2",
+      "url": "https://github.com/zgma-test/gcp-meta-test-2"
+    }
+  }
+}
