@@ -12,7 +12,7 @@
         "filePath": "gcp-meta-test.js",
         "cursor": {
           "lineNumber": 3,
-          "column": 51
+          "column": 52
         },
         "config": {
           "runtime": "nodejs8",
@@ -93,7 +93,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1599734326449
+    "lastSave": 1599734341678
   },
   "VCS_STATE": {
     "provider": "GitHub",
